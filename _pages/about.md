@@ -2,33 +2,61 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student in Computer Science at Keio University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Graduate School of Science and Technology</p>
+    <p>Keio University</p>
+    <p>3-14-1 Hiyoshi, Kohoku-ku, Yokohama, 223-8522, Kanagawa, Japan</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second-year Ph.D. student in Computer Science at Keio University, advised by Prof. Yasushi Narushima.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on establishing theoretical guarantees for AI using techniques from **optimization** and **dynamical systems**. I am particularly interested in developing methods to enhance the safety and reliability of neural networks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I studied numerical schemes for solving a PDE during my undergraduate and master's studies. This work naturally led me to develop an interest in optimization algorithms and their theoretical foundations. Taking the continuous-time limit reveals a connection between numerical schemes and optimization algorithms through ODEs and SDEs. This connection has motivated me to approach my research from a dynamical systems perspective.
+
+**Contact:** chiseblanton125 [at] keio [dot] jp
+
+**Research Experience**
+
+**Collaborative Researcher**, Keio AI Research Center (2025–Present)
+
+Led by Prof. Komei Sugiura, advancing interdisciplinary AI research in collaboration with Carnegie Mellon University (CMU) and partner institutions.
+
+## Publications
+
+**Convergence Analysis via ODE Approach for Convex Optimization with Linear Equality Constraints** (2026)
+
+Chise Ishii, Yasushi Narushima. *Preprint.*
+
+[arXiv:2605.17819](https://arxiv.org/abs/2605.17819)
+
+## Beyond Research — Violin
+
+In my spare time, I enjoy playing the violin. I began studying the violin at the age of five, and classical music has been an important part of my life ever since.
+
+In 2013, I appeared as a soloist at the Altenburger Musikfestival. As an undergraduate, I served as concertmaster for the Waseda Symphony Orchestra's 2018 European tour, performing in 12 cities, including the Berlin Philharmonie and the Musikverein in Vienna. In 2019, I performed Tchaikovsky's Violin Concerto with the orchestra, conducted by Daisuke Soga.
+
+In 2023, I was selected for the [Be Phil Orchestra 2023 Japan](https://www.youtube.com/watch?v=G9Z5DhcLSh0), organized by the Berliner Philharmoniker, and performed at Suntory Hall under the baton of Kirill Petrenko, alongside Daishin Kashimoto, Ludwig Quandt, and other distinguished musicians.
+
+I have studied with Fumi Koseki and Yasuko Ohtani and participated in masterclasses with members of the Bayreuth Festival Quartet, as well as Mayumi Kanagawa, Reiko Watanabe, Simon James, and Sulki Yu.
+
+I have also participated in the Chofu International Music Festival and various music festivals and masterclasses in Japan and abroad, including in the United States and Italy.
